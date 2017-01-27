@@ -22,6 +22,10 @@ var params = {
 
 
 ec2.runInstances(params, function(err, data){
+	console.log("Attempting to create: "+ JSON.stringify(params) );
+
+
+	
 	if(err){
 		console.log("Could not create instance because ", err ); return;
 	}

@@ -14,16 +14,12 @@ var headers =
 	'Content-Type':'application/json',
 	Authorization: 'Bearer ' + config_token
 };
-
 var client =
 {
-
 	listIp: function(dropletId, onResponse )
 	{
 		needle.get("https://api.digitalocean.com/v2/droplets/" + dropletId, {headers:headers, json:true}, onResponse);
 	},
-// 38321153
-
 	createDroplet: function (dropletName, region, imageName, onResponse)
 	{
 		var data = 
@@ -32,9 +28,7 @@ var client =
 			"region":region,
 			"size":"512mb",
 			"image":imageName,
-			// Id to ssh_key already associated with account.
 			"ssh_keys":[6085003],
-			//"ssh_keys":null,
 			"backups":false,
 			"ipv6":false,
 			"user_data":null,
@@ -61,7 +55,6 @@ client.createDroplet(name, region, image , function(err, resp, body)
 	console.log("Droplet ID is: ", dropletId);
 	console.log("Wait for 30 seconds to retrieve IP");
 	console.log();
-
 	console.log("###### Getting the IP Address ######");
 	sleep.sleep(30);
 	
