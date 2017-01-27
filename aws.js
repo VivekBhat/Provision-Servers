@@ -20,12 +20,8 @@ var params = {
 	SecurityGroups:["test1"]
 }
 
-
 ec2.runInstances(params, function(err, data){
-	console.log("Attempting to create: "+ JSON.stringify(params) );
-
-
-	
+	console.log("Attempting to create: "+ JSON.stringify(params));	
 	if(err){
 		console.log("Could not create instance because ", err ); return;
 	}
