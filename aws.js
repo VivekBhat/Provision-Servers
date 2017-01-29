@@ -1,8 +1,6 @@
 var AWS = require('aws-sdk');
 var fs = require("fs");
 var sleep = require("sleep");
-// var config = {};
-// var config_token = "7fa636e3567b698a744e55bdafa35a4ae90b62afed4ff31e91e52232f6144792";
 
 var aws_access_key = process.env.AWS_ACCESS_KEY;
 var aws_secret_key = process.env.AWS_SECRET_KEY;
