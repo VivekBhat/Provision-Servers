@@ -17,3 +17,8 @@ To run the programs do the following:
 Instead of uploading the Node_modules folder there is package.json file to resolve the dependencies of the project.
 
 * [Package.json](https://github.ncsu.edu/vbhat/HW1/blob/master/package.json)
+
+
+## Screencast of the procedure
+The Link to the screencast is:
+* [Link](https://youtu.be/gjxwtLtfVGM)
