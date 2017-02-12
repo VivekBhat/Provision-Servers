@@ -1,4 +1,4 @@
-Provisioning Servers
+##Provisioning Servers
 
 ##Code for provisioning the two platforms.
 <p>The code to provision DigitalOcean and AWS EC2 is in the two files</p>
@@ -13,3 +13,7 @@ To run the programs do the following:
 		npm install
 		bash script 
 	
+## Configuration management of repo.
+Instead of uploading the Node_modules folder there is package.json file to resolve the dependencies of the project.
+
+* [Package.json](https://github.ncsu.edu/vbhat/HW1/blob/master/package.json)
