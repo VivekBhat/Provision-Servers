@@ -3,6 +3,7 @@
 ## Code for provisioning the two platforms.
 
 <p>The code to provision DigitalOcean and AWS EC2 is in the two files</p>
+
 * [do.js](https://github.ncsu.edu/vbhat/HW1/blob/master/do.js)
 * [aws.js](https://github.ncsu.edu/vbhat/HW1/blob/master/aws.js)
 
